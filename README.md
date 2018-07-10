@@ -10,6 +10,10 @@ https://www.valentinog.com/blog/tutorial-api-django-rest-react/
 
 本チュートリアルを行う上で下記の記事を参考にさせて頂きました。  
 
+### pipenvの使い方  
+
+- Pipenv: 人間のためのPython開発ワークフロー  
+https://pipenv-ja.readthedocs.io/ja/translate-ja/
 
 ### git/GitHubの使い方  
 
@@ -20,4 +24,3 @@ https://qiita.com/takanatsu/items/fc89de9bd11148da1438
 ## コメント  
 - pipenv便利ですね  
 - 久しぶりにgitをコマンドで使うと色々忘れていて困ります  
-- 
