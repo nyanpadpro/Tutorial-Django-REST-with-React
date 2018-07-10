@@ -19,4 +19,5 @@ https://qiita.com/takanatsu/items/fc89de9bd11148da1438
 
 ## コメント  
 - pipenv便利ですね  
-
+- 久しぶりにgitをコマンドで使うと色々忘れていて困ります  
+- 
