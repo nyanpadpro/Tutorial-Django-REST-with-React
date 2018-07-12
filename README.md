@@ -24,3 +24,16 @@ https://qiita.com/takanatsu/items/fc89de9bd11148da1438
 ## コメント  
 - pipenv便利ですね  
 - 久しぶりにgitをコマンドで使うと色々忘れていて困ります  
+
+
+## トラブル事例  
+- Cloud9(AWS)でpython manage.py runserver 0.0.0.0:8080でWebサーバを起動してブラウザからアクセスするとDisallowedHostになる  
+
+settings.pyのALLOWED_HOSTSに下記のようにAWS側のホスト名を設定したら解決した。
+```python
+ALLOWED_HOSTS = [
+    '…s.cloud9.ap-southeast-1.amazonaws.com'
+]
+```
+DEBUG = Trueだとセキュリティの制限がかかるみたい。
+
